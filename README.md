@@ -77,7 +77,18 @@ A selection of projects I've built, focused on systems engineering, performance,
 
 ## Open-Source Contributions
 
-I enjoy working with existing codebases, understanding their architecture, and contributing improvements that make software more useful and reliable.
+I enjoy working with established codebases, understanding their architecture, and contributing improvements that make software more reliable and easier to use.
+
+### [Apache Druid — PR #20818](https://github.com/apache/druid/pull/20818) · Merged
+
+**Fix flaky embedded compaction tests**
+
+`Java` `Testing` `Apache Druid`
+
+- Fixed a flaky test timeout in `CompactionTestBase.createCluster()`.
+- Increased the default `LatchableEmitter` timeout from 10 seconds to 60 seconds.
+- Addressed failures occurring when compaction tasks took longer than expected to emit `task/run/time` events on loaded CI runners.
+- Aligned the configuration with the existing approach used in `StreamIndexTestBase`.
 
 ### [Axl / Observal — PR #440](https://github.com/Observal/Axl/pull/440)
 
