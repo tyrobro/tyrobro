@@ -166,7 +166,7 @@ I'm particularly interested in exploring:
 
 <p align="center">
   <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=tyrobro&hide_border=true&theme=transparent"
+    src="https://streak-stats.demolab.com?user=tyrobro"
     alt="GitHub contribution streak"
   />
 </p>
