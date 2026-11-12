@@ -22,7 +22,7 @@
 
 ## About Me
 
-I'm a Computer Science undergraduate at **BITS**, interested in building reliable, efficient software and understanding how systems work under the hood.
+I'm a Computer Science junior at **BITS Goa**, interested in building reliable, efficient software and understanding how systems work under the hood.
 
 My work spans systems programming, distributed infrastructure, backend engineering, and performance-oriented software. I enjoy taking ideas from scratch, exploring architectural trade-offs, measuring performance, and turning technical concepts into working implementations.
 
