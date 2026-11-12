@@ -145,6 +145,22 @@ I am interested in contributing to systems software, developer tooling, infrastr
   <img src="https://img.shields.io/badge/Verilog-555555?style=flat-square"/>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/libp2p-FF4D4D?style=flat-square"/>
+  <img src="https://img.shields.io/badge/QUIC-333333?style=flat-square"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
+  <img src="https://img.shields.io/badge/BoltDB-555555?style=flat-square"/>
+</p>
 ---
 ## Professional Experience
 
