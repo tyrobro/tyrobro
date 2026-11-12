@@ -177,8 +177,8 @@ I'm particularly interested in exploring:
 
 I'm always interested in discussing systems engineering, open-source software, distributed infrastructure, and interesting technical problems.
 
-- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/shauryajain76/)
-- **Email:** [Email](mailto:shaurya7jain@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/shauryajain76/)
+- [Email](mailto:shaurya7jain@gmail.com)
 ---
 
 <p align="center">
