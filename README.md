@@ -177,12 +177,10 @@ I'm particularly interested in exploring:
 
 I'm always interested in discussing systems engineering, open-source software, distributed infrastructure, and interesting technical problems.
 
-- **LinkedIn:** [YOUR LINKEDIN PROFILE]((https://www.linkedin.com/in/shauryajain76/))
-- **Email:** [YOUR EMAIL ADDRESS](mailto:shaurya7jain@gmail.com)
-- **GitHub:** [github.com/tyrobro](https://github.com/tyrobro)
-
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/shauryajain76/)
+- **Email:** [Email](mailto:shaurya7jain@gmail.com)
 ---
 
 <p align="center">
-  <i>Building things, understanding how they work, and making them better.</i>
+  <i>I like solving problems :) .</i>
 </p>
