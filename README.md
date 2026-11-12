@@ -90,7 +90,7 @@ I enjoy working with established codebases, understanding their architecture, an
 - Addressed failures occurring when compaction tasks took longer than expected to emit `task/run/time` events on loaded CI runners.
 - Aligned the configuration with the existing approach used in `StreamIndexTestBase`.
 
-### [Axl / Observal — PR #440](https://github.com/Observal/Axl/pull/440)
+### [Axl / Observal — PR #440](https://github.com/Observal/Axl/pull/440) · Merged
 
 **Command suggestion improvements**
 
