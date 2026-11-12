@@ -153,24 +153,18 @@ I'm particularly interested in exploring:
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=tyrobro&show_icons=true&hide_border=true&theme=transparent"
-    height="165"
-    alt="GitHub statistics"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyrobro&layout=compact&hide_border=true&theme=transparent"
-    height="165"
-    alt="Most used programming languages"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=tyrobro&theme=github-compact&hide_border=true"
+    alt="GitHub contribution activity graph"
+    width="100%"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=tyrobro"
-    alt="GitHub contribution streak"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyrobro&layout=compact&hide_border=true&theme=transparent"
+    alt="Most used programming languages"
   />
 </p>
-
 ---
 
 ## Let's Connect
