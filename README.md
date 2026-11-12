@@ -1,175 +1,177 @@
-# Hey, I’m Shaurya 👋
+<h1 align="center">Hi, I'm Shaurya Jain 👋</h1>
 
-```cpp
-while(alive) {
-    build(distributed_systems);
-    optimize(latency);
-    learn(new_things);
-    lift(weights);
-}
-```
+<h3 align="center">Software Engineer | Systems Programming | Open Source</h3>
 
-Computer Science junior at Birla Institute of Technology and Science, Pilani – K.K. Birla Goa Campus
-Interested in distributed systems, high-performance infrastructure, networking, and ML systems.
+<p align="center">
+  Building software, exploring systems from the ground up, and contributing to open-source projects.
+</p>
 
-Currently building systems that care about:
-
-* low latency
-* fault tolerance
-* concurrency
-* decentralization
-* scalability under chaos
-
-I enjoy writing software that sits close to the metal — lock-free engines, distributed storage, peer-to-peer systems, and infrastructure that survives bad network conditions and worse design decisions.
+<p align="center">
+  <a href="https://github.com/tyrobro">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:YOUR_EMAIL_ADDRESS">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 ---
 
-## ⚙️ What I’m Working On
+## About Me
 
-### 🌌 Nyx
+I'm a Computer Science undergraduate at **BITS**, interested in building reliable, efficient software and understanding how systems work under the hood.
 
-A decentralized encrypted messaging engine built in Rust using libp2p.
+My work spans systems programming, distributed infrastructure, backend engineering, and performance-oriented software. I enjoy taking ideas from scratch, exploring architectural trade-offs, measuring performance, and turning technical concepts into working implementations.
 
-* Peer discovery with Kademlia DHT
-* NAT traversal + relay fallback
-* Forward secrecy using HKDF-based key ratcheting
-* ChaCha20-Poly1305 authenticated encryption
-* Fully serverless communication layer
+Alongside my own projects, I actively explore established codebases and contribute to open-source software, particularly where I can improve functionality, reliability, or the developer experience.
 
-> Basically: “what if Signal had no servers?”
-
----
-
-### ⚡ Hermes
-
-A lock-free high-frequency trading execution engine in C++.
-
-* ~44ns median tick-to-trade latency
-* 32M+ ticks/sec throughput
-* CPU core pinning
-* Cache-optimized ring buffers
-* Zero hot-path heap allocations
-
-Built because I wanted to understand how absurdly fast systems are engineered.
+- 🎓 **Education:** B.E. (Hons.) Computer Science, BITS — Expected 2028
+- ⚙️ **Primary interests:** Systems programming, distributed systems, networking, and storage
+- 🔧 **Engineering approach:** Build, benchmark, test, understand, and iterate
+- 🌐 **Open source:** Interested in contributing to infrastructure, developer tools, and systems software
 
 ---
 
-### 🛡 Heimdall
+## Featured Projects
 
-A distributed storage engine focused on snapshot isolation and intelligent routing.
+A selection of projects I've built, focused on systems engineering, performance, and distributed infrastructure.
 
-* MVCC + WAL-based recovery
-* gRPC streaming gateway
-* ML-assisted access prediction
-* Prometheus telemetry
-* Fault-tolerant chunked transfer pipeline
+### [Hermes](https://github.com/tyrobro)
 
-This project started from an obsession with storage consistency and eventually spiraled into distributed systems research.
+**Lock-free HFT execution engine**
 
----
+`C++` `CMake` `Concurrency` `Google Benchmark`
 
-### 📡 GridMon
+- Built a low-latency execution engine focused on minimizing tick-to-trade latency.
+- Implemented a cache-optimized SPSC ring buffer for efficient inter-thread communication.
+- Benchmarked four concurrency designs using Google Benchmark and CPU cycle measurements with `rdtsc`.
+- Achieved **44 ns median tick-to-trade latency** and **32.4 million ticks per second** in project benchmarks.
 
-Distributed monitoring infrastructure using FastAPI + InfluxDB.
+### [Nyx](https://github.com/tyrobro)
 
-* Async telemetry ingestion
-* Real-time monitoring pipelines
-* Edge-agent architecture
-* Sub-10ms inference optimization
+**Serverless peer-to-peer communication mesh**
 
----
+`Rust` `libp2p` `QUIC` `GossipSub` `AES-256-GCM`
 
-## 🧠 Interests
+- Built a peer-to-peer mesh designed for communication without relying on a central application server.
+- Implemented NAT traversal using relay mechanisms and DCUtR.
+- Added encrypted communication rooms using AES-256-GCM, with sensitive data handling through Zeroize.
+- Integrated Kademlia DHT for peer discovery and lookup.
+- Implemented token-bucket rate limiting to help control network traffic.
 
-```text
-Distributed Systems
-High Performance Computing
-Computer Networks
-ML Systems
-Systems Programming
-Backend Infrastructure
-```
+### [Heimdall](https://github.com/tyrobro)
 
----
+**Distributed storage engine**
 
-## 🛠 Tech Stack
+`Go` `Python` `gRPC` `BoltDB` `Prometheus`
 
-### Languages
-
-`Rust` `C++17` `Go` `Python`
-
-### Systems & Infra
-
-`gRPC` `Protobuf` `libp2p` `Prometheus` `Grafana` `BoltDB`
-
-### Backend & Data
-
-`FastAPI` `InfluxDB` `PostgreSQL`
-
-### Currently Exploring
-
-`Kernel-level optimization`
-`Consensus systems`
-`Storage engines`
-`Network protocols`
+- Built a distributed storage engine with a focus on persistence, consistency, and recovery.
+- Implemented a write-ahead log, multi-version concurrency control (MVCC), and crash recovery.
+- Added LRU-based caching and performance instrumentation.
+- Achieved up to **270× faster ingestion** compared with synchronous BoltDB writes in project benchmarks.
 
 ---
 
-## 🚀 Experience
+## Open-Source Contributions
 
-### Summer Intern @ Foundership - The Business Studio
+I enjoy working with existing codebases, understanding their architecture, and contributing improvements that make software more useful and reliable.
 
-Working on startup-oriented engineering projects and product systems.
+### [Axl / Observal — PR #440](https://github.com/Observal/Axl/pull/440)
 
-### Core Member @ Quark BITS Pilani Goa
+**Command suggestion improvements**
 
-Managed large-scale event logistics and operations for 500+ participants across technical and gaming events.
+`Go` `Levenshtein Distance` `Testing`
 
----
+- Implemented a `closestMatch` helper using Levenshtein edit distance to suggest the closest matching slash command or theme when users enter a typo.
+- Integrated suggestions into two TUI error-handling paths.
+- Added 10 tests covering the matching behaviour.
+- Worked through five rounds of automated review feedback.
 
-## 📚 Education
-
-🎓 B.E. Computer Science
-Birla Institute of Technology and Science, Pilani – K.K. Birla Goa Campus
-2024 – 2028
-
-Relevant Coursework:
-
-* Data Structures & Algorithms
-* Database Management Systems
-* Object-Oriented Programming
+I am interested in contributing to systems software, developer tooling, infrastructure, and other projects where I can make practical engineering improvements.
 
 ---
 
-## 🏆 Certifications
+## Professional Experience
 
-* Machine Learning Specialization — Stanford & DeepLearning.AI
-* Programming with Google Go — UC Irvine
-* Game Theory — Stanford & UBC
+### Software Engineering Intern — FoundershipHQ Accelerator Pvt. Ltd.
 
----
+*May 2026 – July 2026*
 
-## 🎯 Beyond Code
+**ExplaraX Check-in — Independent multi-gate check-in system**
 
-You’ll probably find me:
+`React` `Progressive Web Apps` `Supabase` `PostgreSQL` `AWS EC2`
 
-* lifting in the gym
-* overthinking distributed consensus at 2 AM
-* benchmarking things that absolutely did not need benchmarking
-* reading systems design papers for fun
-
----
-
-## 📫 Connect With Me
-
-* GitHub: [tyrobro](https://github.com/tyrobro?utm_source=chatgpt.com)
-* LinkedIn: [Shaurya Jain](https://www.linkedin.com/in/shauryajain76?utm_source=chatgpt.com)
-* Email: [shauryaalok@gmail.com](mailto:shauryaalok@gmail.com)
+- Built an independent Progressive Web App (PWA) check-in system designed to decouple live event check-in traffic from the core ticketing database.
+- Developed a multi-gate check-in workflow with a React-based scanner and host dashboard.
+- Used Supabase PostgreSQL, Realtime, and Edge Functions to support the check-in infrastructure.
+- Implemented atomic, race-safe check-in logic to ensure concurrent QR scans produce a single definitive `ALLOWED` or `DENIED` result.
+- Deployed the system on AWS EC2.
+- Load-tested attendee search with **10,000 attendees** and check-in traffic at **50 scans per second across five gates**, achieving sub-500 ms search performance.
 
 ---
 
-```rust
-fn philosophy() {
-    println!("Build systems. Break assumptions. Optimize everything.");
-}
-```
+## Technical Skills
+
+| Category | Technologies |
+|---|---|
+| **Languages** | C++, Rust, Go, Python, Java, JavaScript, TypeScript, SQL, Verilog |
+| **Systems & Networking** | Concurrency, Lock-free Data Structures, QUIC, libp2p, GossipSub, gRPC |
+| **Backend & Frameworks** | FastAPI, Node.js, React |
+| **Databases & Storage** | PostgreSQL, BoltDB, MVCC, Write-Ahead Logging |
+| **Infrastructure & Tools** | Git, CMake, Prometheus, AWS EC2 |
+| **Engineering Practices** | Benchmarking, Performance Optimization, Testing, Distributed Systems |
+
+---
+
+## Areas of Interest
+
+I'm particularly interested in exploring:
+
+- **Systems Programming:** Operating systems, memory management, concurrency, and low-level performance.
+- **Distributed Systems:** Fault tolerance, consistency, replication, and distributed storage.
+- **Networking:** Peer-to-peer architectures, transport protocols, and network infrastructure.
+- **Backend Engineering:** Scalable services, databases, and reliable infrastructure.
+- **Open Source:** Understanding large codebases, collaborating with maintainers, and contributing meaningful improvements.
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=tyrobro&show_icons=true&hide_border=true&theme=transparent"
+    height="165"
+    alt="GitHub statistics"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyrobro&layout=compact&hide_border=true&theme=transparent"
+    height="165"
+    alt="Most used programming languages"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=tyrobro&hide_border=true&theme=transparent"
+    alt="GitHub contribution streak"
+  />
+</p>
+
+---
+
+## Let's Connect
+
+I'm always interested in discussing systems engineering, open-source software, distributed infrastructure, and interesting technical problems.
+
+- **LinkedIn:** [YOUR LINKEDIN PROFILE]((https://www.linkedin.com/in/shauryajain76/))
+- **Email:** [YOUR EMAIL ADDRESS](mailto:shaurya7jain@gmail.com)
+- **GitHub:** [github.com/tyrobro](https://github.com/tyrobro)
+
+---
+
+<p align="center">
+  <i>Building things, understanding how they work, and making them better.</i>
+</p>
