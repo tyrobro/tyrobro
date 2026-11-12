@@ -72,7 +72,7 @@ Alongside my own projects, I actively explore established codebases and contribu
 
 A selection of projects I've built, focused on systems engineering, performance, and distributed infrastructure.
 
-### [Hermes](https://github.com/tyrobro)
+### [Hermes](https://github.com/tyrobro/hermes)
 
 **Lock-free HFT execution engine**
 
@@ -83,7 +83,7 @@ A selection of projects I've built, focused on systems engineering, performance,
 - Benchmarked four concurrency designs using Google Benchmark and CPU cycle measurements with `rdtsc`.
 - Achieved **44 ns median tick-to-trade latency** and **32.4 million ticks per second** in project benchmarks.
 
-### [Nyx](https://github.com/tyrobro)
+### [Nyx](https://github.com/tyrobro/nyx)
 
 **Serverless peer-to-peer communication mesh**
 
@@ -95,7 +95,7 @@ A selection of projects I've built, focused on systems engineering, performance,
 - Integrated Kademlia DHT for peer discovery and lookup.
 - Implemented token-bucket rate limiting to help control network traffic.
 
-### [Heimdall](https://github.com/tyrobro)
+### [Heimdall](https://github.com/tyrobro/heimdall)
 
 **Distributed storage engine**
 
