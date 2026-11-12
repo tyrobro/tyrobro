@@ -146,25 +146,6 @@ I'm particularly interested in exploring:
 - **Networking:** Peer-to-peer architectures, transport protocols, and network infrastructure.
 - **Backend Engineering:** Scalable services, databases, and reliable infrastructure.
 - **Open Source:** Understanding large codebases, collaborating with maintainers, and contributing meaningful improvements.
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=tyrobro&theme=github-compact&hide_border=true"
-    alt="GitHub contribution activity graph"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyrobro&layout=compact&hide_border=true&theme=transparent"
-    alt="Most used programming languages"
-  />
-</p>
 ---
 
 ## Let's Connect
