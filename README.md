@@ -9,7 +9,7 @@ while(alive) {
 }
 ```
 
-Computer Science sophomore at Birla Institute of Technology and Science, Pilani – K.K. Birla Goa Campus
+Computer Science junior at Birla Institute of Technology and Science, Pilani – K.K. Birla Goa Campus
 Interested in distributed systems, high-performance infrastructure, networking, and ML systems.
 
 Currently building systems that care about:
