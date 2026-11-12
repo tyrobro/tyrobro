@@ -1,4 +1,4 @@
-<picture>
+ <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="assets/shaurya-banner-dark.png"
@@ -8,7 +8,7 @@
     srcset="assets/shaurya-banner-light.png"
   />
   <img
-    src="assets/banner-light.png"
+    src="assets/shaurya-banner-light.png"
     alt="Shaurya Jain — Systems Programming, Distributed Systems, Open Source"
     width="100%"
   />
@@ -26,10 +26,10 @@
   <a href="https://github.com/tyrobro">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="YOUR_LINKEDIN_URL">
+  <a href="https://www.linkedin.com/in/shauryajain76/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:YOUR_EMAIL_ADDRESS">
+  <a href="mailto:shaurya7jain@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
@@ -47,9 +47,11 @@
   </picture>
 </p>
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
 
-## About Me
+## ◈ About Me
 
 I'm a Computer Science junior at **BITS Goa**, interested in building reliable, efficient software and understanding how systems work under the hood.
 
@@ -62,9 +64,11 @@ Alongside my own projects, I actively explore established codebases and contribu
 - 🔧 **Engineering approach:** Build, benchmark, test, understand, and iterate
 - 🌐 **Open source:** Interested in contributing to infrastructure, developer tools, and systems software
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
 
-## Featured Projects
+## ⚙ Featured Projects
 
 A selection of projects I've built, focused on systems engineering, performance, and distributed infrastructure.
 
@@ -102,9 +106,11 @@ A selection of projects I've built, focused on systems engineering, performance,
 - Added LRU-based caching and performance instrumentation.
 - Achieved up to **270× faster ingestion** compared with synchronous BoltDB writes in project benchmarks.
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
 
-## Open-Source Contributions
+## ⌘ Open-Source Contributions
 
 I enjoy working with established codebases, understanding their architecture, and contributing improvements that make software more reliable and easier to use.
 
@@ -132,7 +138,14 @@ I enjoy working with established codebases, understanding their architecture, an
 
 I am interested in contributing to systems software, developer tooling, infrastructure, and other projects where I can make practical engineering improvements.
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
+
+## ⌁ Tech Stack
+
+**Languages**
+
 <p>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
@@ -145,6 +158,8 @@ I am interested in contributing to systems software, developer tooling, infrastr
   <img src="https://img.shields.io/badge/Verilog-555555?style=flat-square"/>
 </p>
 
+**Frameworks & Technologies**
+
 <p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
@@ -154,6 +169,8 @@ I am interested in contributing to systems software, developer tooling, infrastr
   <img src="https://img.shields.io/badge/QUIC-333333?style=flat-square"/>
 </p>
 
+**Tools & Infrastructure**
+
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white"/>
@@ -161,8 +178,12 @@ I am interested in contributing to systems software, developer tooling, infrastr
   <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
   <img src="https://img.shields.io/badge/BoltDB-555555?style=flat-square"/>
 </p>
----
-## Professional Experience
+
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
+
+## ▸ Professional Experience
 
 ### Software Engineering Intern — FoundershipHQ Accelerator Pvt. Ltd.
 
@@ -179,9 +200,11 @@ I am interested in contributing to systems software, developer tooling, infrastr
 - Deployed the system on AWS EC2.
 - Load-tested attendee search with **10,000 attendees** and check-in traffic at **50 scans per second across five gates**, achieving sub-500 ms search performance.
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
 
-## Technical Skills
+## ⌁ Technical Skills
 
 | Category | Technologies |
 |---|---|
@@ -192,9 +215,11 @@ I am interested in contributing to systems software, developer tooling, infrastr
 | **Infrastructure & Tools** | Git, CMake, Prometheus, AWS EC2 |
 | **Engineering Practices** | Benchmarking, Performance Optimization, Testing, Distributed Systems |
 
----
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
 
-## Areas of Interest
+## ◎ Areas of Interest
 
 I'm particularly interested in exploring:
 
@@ -203,15 +228,17 @@ I'm particularly interested in exploring:
 - **Networking:** Peer-to-peer architectures, transport protocols, and network infrastructure.
 - **Backend Engineering:** Scalable services, databases, and reliable infrastructure.
 - **Open Source:** Understanding large codebases, collaborating with maintainers, and contributing meaningful improvements.
----
 
-## Let's Connect
+<p align="center">
+  <img src="assets/divider.svg" width="90%" alt=""/>
+</p>
+
+## ↗ Let's Connect
 
 I'm always interested in discussing systems engineering, open-source software, distributed infrastructure, and interesting technical problems.
 
 - [LinkedIn](https://www.linkedin.com/in/shauryajain76/)
 - [Email](mailto:shaurya7jain@gmail.com)
----
 
 <p align="center">
   <i>I like solving problems :) .</i>
