@@ -34,6 +34,19 @@
   </a>
 </p>
 
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1300&color=FF3030&center=true&vCenter=true&width=850&lines=I+build+things.+Sometimes+they+even+work.;Less+magic.+More+understanding.;Measure+twice.+Optimize+once.;If+it+can+be+thought+of%2C+why+not+built%3F"
+    />
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1300&color=38BDF8&center=true&vCenter=true&width=850&lines=I+build+things.+Sometimes+they+even+work.;Less+magic.+More+understanding.;Measure+twice.+Optimize+once.;If+it+can+be+thought+of%2C+why+not+built%3F"
+      alt="Rotating introduction"
+    />
+  </picture>
+</p>
+
 ---
 
 ## About Me
